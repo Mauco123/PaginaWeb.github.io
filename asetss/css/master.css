@@ -8,55 +8,48 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
     color: rgb(30, 29, 28);
-    background-color: rgb(40, 78, 182);
+    background-color: rgb(60, 11, 11);
     padding: 20px;
 }
 
 header {
-    background-color: rgb(29, 151, 221);
+    background-color: rgb(199, 19, 19);
     color: white;
     padding: 18px 20px;
-
-
     text-align: center;
 }
 
-nav ul {
+.link{
+    color: black;
+    text-align: justify;
+    padding-left: 500px;   
+}
+
+.link:hover{
+    pointer-events: all;   
     
-    list-style: none;
-    background: rgb(8, 6, 147);
-
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.302);
-}
-
-body {
-    margin-top: 15px;
 }
 
 section {
     margin-top: 10px;
 }
 
+p{
+    text-align: justify;
+}
+
 section, article, aside {
     margin-bottom: 20px;
     padding: 15px;
-    background: white;
-    border: 1px solid color( red green blue);
+    background: rgb(253, 214, 214);
+    border: 1px solid color;
 }
 
 footer {
     text-align: center;
     padding: 10px, 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: rgb(43, 41, 41);
     color: white;
 }
